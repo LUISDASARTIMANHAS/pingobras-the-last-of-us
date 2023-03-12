@@ -6,8 +6,8 @@ btnCarrossel.forEach((botao, ID) => {
     botao.addEventListener("click", () => {
         desativarBtn()
         esconderImgAtiva()
+      
         botao.classList.add("selecionado");
-        
         Img[ID].classList.add("ativa");
     })
 })
